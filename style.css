@@ -76,6 +76,10 @@
         background-size: auto!important;
     }
     
+    .image-resize-mode {
+        border-radius: 40px;
+    }
+    
     .bg-repeat {
         background: repeat;
     }
