@@ -20,6 +20,7 @@
     
     .text-center {
         font-size: 20px;
+        color: white;
     }
     
     #page-loading-blocs-notifaction {
@@ -779,7 +780,7 @@
     }
     
     .bgc-atomic-tangerine {
-        background-color: #be7756;
+        background-color: #3f281d;
     }
     
     .tc-white {
@@ -787,12 +788,12 @@
     }
     
     .btn-atomic-tangerine {
-        background: #be7756;
+        background: #3f281d;
         color: #FFFFFF!important;
     }
     
     .btn-atomic-tangerine:hover {
-        background: #9d5f42!important;
+        background: #060403!important;
         color: #FFFFFF!important;
     }
     
