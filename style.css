@@ -792,8 +792,8 @@
     }
     
     .btn-atomic-tangerine {
-        background: #3f281d;
-        color: #FFFFFF!important;
+        background: white;
+        color: black!important;
     }
     
     .btn-atomic-tangerine:hover {
