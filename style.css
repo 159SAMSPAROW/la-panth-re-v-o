@@ -19,7 +19,7 @@
     }
     
     .text-center {
-        font-size: 15px;
+        font-size: 20px;
     }
     
     #page-loading-blocs-notifaction {
@@ -141,7 +141,7 @@
     .d-bloc h5 a,
     .d-bloc h6 a,
     .d-bloc p a {
-        color: rgba(255, 255, 255, .6);
+        color: white;
     }
     
     .d-bloc .a-btn:hover,
@@ -158,7 +158,7 @@
     .d-bloc h5 a:hover,
     .d-bloc h6 a:hover,
     .d-bloc p a:hover {
-        color: rgba(255, 255, 255, 1);
+        color: black;
     }
     
     .d-bloc .navbar-toggle .icon-bar {
@@ -281,7 +281,6 @@
     }
     
     .row-no-gutters {
-        margin-right: 0;
         margin-left: 0;
     }
     
@@ -485,7 +484,7 @@
     }
     
     .icon-md {
-        font-size: 30px!important;
+        font-size: 43px!important;
     }
     
     .icon-lg {
@@ -668,7 +667,7 @@
     }
     
     .hero-bloc-text {
-        font-size: 38px;
+        font-size: 48px;
     }
     
     .hero-bloc-text-sub {
@@ -709,7 +708,7 @@
     }
     
     .social {
-        max-width: 400px;
+        max-width: 75%;
         margin: auto auto auto auto;
     }
     
