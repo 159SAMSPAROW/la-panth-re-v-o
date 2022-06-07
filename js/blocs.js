@@ -189,15 +189,16 @@ function addLightBoxSwipeSupport() {
     })
 }
 $(document).ready(function() {
-    $("#scroll-hero").click(function(t) {
-        t.preventDefault(), $("html,body").animate({
-            scrollTop: $("#scroll-hero").closest(".bloc").height()
-        }, "slow")
-    }), extraNavFuncs(), setUpSpecialNavs(), setUpDropdownSubs(), setUpLightBox(), setUpVisibilityToggle(), addSwipeSupport(), addKeyBoardSupport(), -1 != navigator.userAgent.indexOf("Safari") && -1 == navigator.userAgent.indexOf("Chrome") && $("#page-loading-blocs-notifaction").remove()
-}), $(window).load(function() {
-    setFillScreenBlocHeight(), animateWhenVisible(), $("#page-loading-blocs-notifaction").remove()
-}).resize(function() {
-    setFillScreenBlocHeight()
-}), $(function() {
-    $('[data-toggle="tooltip"]').tooltip()
-});
+        $("#scroll-hero").click(function(t) {
+            t.preventDefault(), $("html,body").animate({
+                scrollTop: $("#scroll-hero").closest(".bloc").height()
+            }, "slow")
+        }), extraNavFuncs(), setUpSpecialNavs(), setUpDropdownSubs(), setUpLightBox(), setUpVisibilityToggle(), addSwipeSupport(), addKeyBoardSupport(), -1 != navigator.userAgent.indexOf("Safari") && -1 == navigator.userAgent.indexOf("Chrome") && $("#page-loading-blocs-notifaction").remove()
+    }),
+    $(window).load(function() {
+        setFillScreenBlocHeight(), animateWhenVisible(), $("#page-loading-blocs-notifaction").remove()
+    }).resize(function() {
+        setFillScreenBlocHeight()
+    }), $(function() {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
